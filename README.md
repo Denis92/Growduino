@@ -1,0 +1,2 @@
+# Growduino
+Simple grow controller
