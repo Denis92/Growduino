@@ -267,6 +267,16 @@
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QPushButton" name="configButton">
+       <property name="styleSheet">
+        <string notr="true">color: White;
+
+border: 1px solid #505050;
+border-radius: 3px;
+background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #65ce6d, stop: 0.5 #20aa20, stop: 0.51 #20aa20, stop: 1 #006600);
+min-width: 70px;
+min-height: 19px;
+</string>
+       </property>
        <property name="text">
         <string>Grow!</string>
        </property>
@@ -505,7 +515,7 @@
      <x>0</x>
      <y>0</y>
      <width>561</width>
-     <height>20</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
